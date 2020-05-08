@@ -1,0 +1,2 @@
+docker-compose/docker-lnmp/data/mysql/下面文件删除
+docker-compose up 
