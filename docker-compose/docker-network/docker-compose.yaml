@@ -1,0 +1,26 @@
+version: '3'
+services:
+  nginx-service:
+    container_name: nginx-test
+    image: nginx:alpine
+    restart: always
+    ports:
+    - "80:80"
+    #volumes:
+    #- ./conf:/etc/nginx/conf.d
+    #- ./logs:/wwwlogs
+    #- ./www:/www
+    #networks:
+    #- custom_net
+    #external_links:
+    #- xxoo
+    #links:
+    #- xxoo
+    #hostname: nginx-xxoo
+    #network_mode: host
+    environment:
+      HOSTNAME: xxxxxxxxxxxxxxxx
+#networks:
+#  custom_net:
+#    external:
+#      name: app_net
